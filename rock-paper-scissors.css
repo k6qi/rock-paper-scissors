@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+}
+
+header{
+    color: white;
+    display: flex;
+    font-family:Play;
+    font-weight:800;
+    font-size:3em;
+    justify-content: center;
+
+}
