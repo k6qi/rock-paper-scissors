@@ -1,6 +1,4 @@
 
-let playerInput = prompt("Enter your choice!").toLowerCase();
-console.log(playerInput);
 
 function getComputerChoice(){
     let choices = ["rock", "paper", "scissors"];
