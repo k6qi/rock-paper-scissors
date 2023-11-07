@@ -7,7 +7,33 @@ header{
     display: flex;
     font-family:Play;
     font-weight:800;
-    font-size:3em;
+    font-size:4em;
     justify-content: center;
 
+}
+
+.score{
+    color:white;
+    display: flex;
+    justify-content: center;
+    padding: 5em 0;
+}
+
+#announcer-text{
+    color:white;
+    display: flex;
+    justify-content: center;
+    padding: 2em 0;
+    font-size:1.5em;
+}
+
+.choices-container{
+    gap:3em;
+    display: flex;
+    color:white;
+    font-family:Play;
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
 }
