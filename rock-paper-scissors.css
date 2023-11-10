@@ -38,7 +38,19 @@ header{
     font-size: 1.5em;
 }
 
+.choices-container div{
+    cursor:pointer;
+}
 
+.choices-container div:hover, .restart-game:hover {
+    transition: 0.3s ease-out 0s;
+    box-shadow: 0px 15px 30px  transparent;
+    transform: translateY(-7px);
+}
+
+.choices-container div:active{
+
+}
 .button-container{
     display: flex;
     justify-content: center;
@@ -51,5 +63,7 @@ header{
     justify-content: center;
     padding: 3em 0;
     font-family: Play;
+    cursor:pointer;
     font-size:20px;
+
 }
